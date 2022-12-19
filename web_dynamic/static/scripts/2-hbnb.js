@@ -10,7 +10,7 @@ $(document).ready(() => {
     const amenities = {};
 
     $('div.amenities li input').change(function () {
-      if ($(this).is(:'checked')) {
+      if ($(this).is(':checked')) {
         amenities[($(this).after('data-id'))] = $(this).attr('data-name');
       } else {
         amenities.pop[($(this).attr('data-id'))];
