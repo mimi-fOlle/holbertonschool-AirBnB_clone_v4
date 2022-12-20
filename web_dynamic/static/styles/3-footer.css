@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer {
     position: fixed;
     background: white;
@@ -14,3 +15,21 @@ footer p {
     right: 0;
     left: 0;
 }
+=======
+footer {
+    position: fixed;
+    background: white;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #CCCCCC;
+}
+footer p {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+>>>>>>> d26d97cad046007731e39a632f395d745cce5ccb
