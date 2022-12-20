@@ -7,11 +7,21 @@ $(document).ready(() => {
         }
     });
 
+    // Using the core $.ajax() method
     $.ajax({
+        // The URL for the request
         url: 'http://localhost:5001/api/v1/places_search',
+
+        // POST request
         type: 'POST',
+
+        // The data to send (will be converted to a query string)
         data: '{}',
+
+        // For JSON data
         contentType: 'application/json',
+
+        // The type of data we expect back
         dataType: 'json',
         success: (listPlaces) => {
             for (const place of listPlaces) {
